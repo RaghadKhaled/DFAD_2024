@@ -9,27 +9,26 @@
 ## Contents
 
 - [Setup](#setup)
-- [Dataset](#sataset)
+- [Dataset Preparation](#dataset-preparation)
 - [Evaluation](#evaluation)
 - [Training](#training)
-- [Pretrained model](#weights)
+- [Pretrained model](#pretrained-model)
 
 
 ## Setup 
 
 1. Clone this repository 
 ```bash
-git 
-cd 
+git clone https://github.com/RaghadKhaled/DFAD_2024.git
 ```
 
 2. Install the necessary libraries
 ```bash
-
+pip install -r requirements.txt
 ```
 
 
-## Dataset
+## Dataset Preparation
 
 
 
