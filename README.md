@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 
 ## Dataset Preparation
-- Prepare the training/testing list file through `preprocess.py`.
+- Prepare the training/testing list file through `data/preprocessing.py`.
 
 
 ## Evaluation
@@ -50,13 +50,13 @@ The parameters values in `evaluate.sh` file are as following:
 
 - `data_root`: root path of testing list file.
 - `model`:
-- `num_class`: 2.
+- `num_class`: the class number of training dataset (default: 2).
 - `test_file`: full path of testing list file.
-- `batch_size`: 48.
+- `batch_size`: the training batch size over all gpus. (default: 48)
 - `isTrain`: 0.
-- `ckps`:
-- `data_size`: 448 
-- `out_dir`:
+- `ckps`: the full path for the pre-trained model weights.
+- `data_size`: the image size for training (default: 448). 
+- `out_dir`: the output folder path to save the results.
 
 
 ## Training
@@ -69,18 +69,14 @@ The parameters values in `train.sh` file are as following:
 
 - `data_root`: root path of testing list file.
 - `model`:
-- `num_class`: 2.
+- `num_class`: the class number of training dataset (default: 2).
 - `train_file`: full path of train list file.
 - `test_file`: full path of validation list file.
-- `val_ratio`: 0.005.
 - `isTrain`: 1.
-- `lr`: 0.0001.
-- `batch_size`: 48.
-- `ckps`:
-- `data_size`: 448 
-- `out_dir`:
-- `gpu`:
-- `resume`:
+- `lr`: the initial learning rate (default: 0.0001).
+- `batch_size`: the training batch size over all gpus. (default: 48)
+- `data_size`: the image size for training (default: 448). 
+- `out_dir`: the output folder path to save the checkpoint.
 
 
 
