@@ -3,7 +3,7 @@
 **CVPR 2024 Deepfake Analysis and Detection Challenge** <br>
 
 
-[[Workshop Page](https://dfad.unimore.it/)] [[Challenge page](https://dfad.unimore.it/challenge/)]
+[[Workshop Page](https://dfad.unimore.it/)] [[Challenge Page](https://dfad.unimore.it/challenge/)]
 
 
 ## Contents
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 sh evaluate.sh
 ```
 
-The parameters values in `evaluate.sh` file are as follow:
+The parameters values in `evaluate.sh` file are as following:
 
 - `data_root`: root path of testing list file.
 - `model`:
@@ -65,7 +65,7 @@ The parameters values in `evaluate.sh` file are as follow:
 sh train.sh
 ```
 
-The parameters values in `train.sh` file are as follow:
+The parameters values in `train.sh` file are as following:
 
 - `data_root`: root path of testing list file.
 - `model`:
