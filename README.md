@@ -18,9 +18,9 @@
 
 ## TODO
 - Train/evaluation code.
-- Dataset processing code.
 - Dataset download and processing code.
 - Code to replicate challenge results.
+- Pre-trained models.
 
 
 ## Setup 
