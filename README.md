@@ -49,7 +49,7 @@ sh evaluate.sh
 The parameters values in `evaluate.sh` file are as following:
 
 - `data_root`: root path of testing list file.
-- `model`:
+- `model`: 'LASTED'.
 - `num_class`: the class number of training dataset (default: 2).
 - `test_file`: full path of testing list file.
 - `batch_size`: the training batch size over all gpus. (default: 48)
@@ -68,7 +68,7 @@ sh train.sh
 The parameters values in `train.sh` file are as following:
 
 - `data_root`: root path of testing list file.
-- `model`:
+- `model`: 'LASTED'.
 - `num_class`: the class number of training dataset (default: 2).
 - `train_file`: full path of train list file.
 - `test_file`: full path of validation list file.
