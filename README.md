@@ -14,6 +14,7 @@
 - [Evaluation](#evaluation)
 - [Training](#training)
 - [Pretrained model](#pretrained-model)
+- [Acknowledgments](#acknowledgments)
 
 
 ## TODO
@@ -83,3 +84,7 @@ The parameters values in `train.sh` file are as following:
 ## Pretrained model
 
 Coming soon..
+
+
+## Acknowledgments
+This repository borrows partially from the [LASTED](https://github.com/HighwayWu/LASTED)]
