@@ -87,4 +87,4 @@ Coming soon..
 
 
 ## Acknowledgments
-This repository borrows partially from the [LASTED](https://github.com/HighwayWu/LASTED)]
+This repository borrows partially from the [[LASTED](https://github.com/HighwayWu/LASTED)]
