@@ -84,8 +84,7 @@ The parameters values in `train.sh` file are as following:
 
 ## Pretrained model
 
-Coming soon..
-
+- Download all pretrained weight files from [[here](https://drive.google.com/drive/folders/1DgiN4aeTbEdHt9Pre_iQxfVn_KOEhXlJ?usp=drive_link)].
 
 ## Acknowledgments
 This repository borrows partially from the [[LASTED](https://github.com/HighwayWu/LASTED)]
