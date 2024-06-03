@@ -39,7 +39,8 @@ pip install -r requirements.txt
 
 ## Dataset Preparation
 - Prepare the training/testing list file through `data/preprocessing.py`.
-
+- You can find the image path lists of first 800K records (for two classes) [[here](https://drive.google.com/file/d/1xT-3v5CmSs6Hqs2Lbn5_I39qOS1G1K3e/view?usp=sharing)]
+- You can find the image lists of first 800K records (for five classes) [[here](https://drive.google.com/file/d/1kcFZOTR02iImBT2yhH_BBh5vPMOBHDLF/view?usp=sharing)]
 
 ## Evaluation
 - You can evaluate the model by running the following command:
